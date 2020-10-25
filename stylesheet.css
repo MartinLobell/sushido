@@ -38,9 +38,14 @@ main {
     text-decoration: none;
 }
 
+
 .restaurants > a {
     text-decoration: none;
     color: #000;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .restaurants > a > img {
