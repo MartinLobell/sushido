@@ -1,0 +1,133 @@
+html, body {
+    background-color: #000;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+}
+
+header > img {
+    display: block;
+    max-width: 96%;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+
+main {
+    background-image: url("images/food.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+}
+
+#restaurantWrapper {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    display: flex;
+}
+
+.restaurants {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+.restaurants > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.restaurants:hover {
+    transform: scale(1.1);
+}
+
+.restaurants > a > img {
+    border: 5px solid #fff;
+    border-radius: 200px;
+    height: 150px;
+    max-width: 150px;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+}
+
+.footerSections {
+    margin: auto;
+}
+
+.fa {
+    padding: 20px;
+    margin: auto;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.3;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.fa-facebook {
+    background: #fff;
+    color: #000;
+}
+
+.fa-instagram {
+    background: #fff;
+    color: #000;
+}
+
+#openingHours {
+    display: flex;
+}
+
+#openingHours > p {
+    padding: 5px;
+}
+
+.footerSections > p {
+    margin: 10px;
+    color: #fff;
+}
+
+.footerSections > p > strong {
+    font-size: 22px;
+}
+
+#contact {
+    width: 20%;
+    float: right;
+    text-align: center;
+    color: #fff;
+}
+
+#socialMedia {
+    width: 20%;
+}
+

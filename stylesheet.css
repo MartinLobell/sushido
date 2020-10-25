@@ -1,0 +1,194 @@
+body, html {
+    background: #000;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+header {
+    height: auto;
+    width: 100%;
+}
+
+header > img {
+    max-width: 96%;
+    padding: 5%;
+}
+
+main {
+    background: url("images/food.jpg");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#restaurantWrapper {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.restaurants {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+.restaurants > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.restaurants > a > img {
+    border: 5px solid #fff;
+    border-radius: 200px;
+    height: 150px;
+    max-width: 150px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #fff;
+    color: #000;
+}
+
+.fa-instagram {
+    background: #fff;
+    color: #000;
+}
+
+#openingHours {
+    display: flex;
+    justify-content: center;
+}
+
+.footerSections > p {
+    margin: 10px;
+    color: #fff;
+}
+
+.footerSections > p > strong {
+    font-size: 22px;
+}
+
+#contact {
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 510px) {
+
+    #openingHours > p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 950px) {
+
+    header {
+        height: 200px;
+    }
+
+        header > img {
+            display: block;
+            padding: 2%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 200px;
+        }
+
+    main {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-items: center;
+    }
+
+    #restaurantWrapper {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+    }
+
+    #restaurantWrapper {
+        width: 60%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+    }
+
+    .restaurants {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 30%;
+        transition: all .2s ease-in-out;
+        text-decoration: none;
+    }
+
+    .restaurants:hover {
+        transform: scale(1.1);
+    }
+
+    footer {
+        height: 150px;
+        display: flex;
+    }
+
+    .footerSections {
+        margin: auto;
+    }
+
+    #contact {
+        width: 20%;
+        float: right;
+        text-align: center;
+    }
+
+    #openingHours {
+        display: flex;
+    }
+
+    #socialMedia {
+        width: 20%;
+    }
+
+    .fa:hover {
+        opacity: 0.3;
+        text-decoration: none;
+        color: #000;
+        transition: 0.5s;
+    }
+} 
